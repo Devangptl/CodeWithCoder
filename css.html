@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWithCoder | CSS</title>
+    <link rel="icon" href="https://img.icons8.com/ios-filled/50/246da9/unity.png" type="image/icon type">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="import" href="index.html">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body id="home">
+    <header class="text-gray-600 body-font header-1">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center hr-mar">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-unity"
+              viewBox="0 0 16 16" color="#246DA9">
+              <path
+                d="M15 11.2V3.733L8.61 0v2.867l2.503 1.466c.099.067.099.2 0 .234L8.148 6.3c-.099.067-.197.033-.263 0L4.92 4.567c-.099-.034-.099-.2 0-.234l2.504-1.466V0L1 3.733V11.2v-.033.033l2.438-1.433V6.833c0-.1.131-.166.197-.133L6.6 8.433c.099.067.132.134.132.234v3.466c0 .1-.132.167-.198.134L4.031 10.8l-2.438 1.433L7.983 16l6.391-3.733-2.438-1.434L9.434 12.3c-.099.067-.198 0-.198-.133V8.7c0-.1.066-.2.132-.233l2.965-1.734c.099-.066.197 0 .197.134V9.8L15 11.2Z" />
+            </svg>
+    
+            <span class="ml-3 text-xl">CodeWithCoder</span>
+          </a>
+          <nav
+            class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+            <a href="index.html" class="mr-5 hover:text-blue-900">Home</a>
+            <a href="index.html#about" class="mr-5 hover:text-blue-900">About</a>
+            <a href="index.html#Services" class="mr-5 hover:text-blue-900">Services</a>
+            <a href="index.html#contact" class="mr-5 hover:text-blue-900">Contact Us</a>
+    
+          </nav>
+    
+        </div>
+      </header>
+    <br>
+
+    <div id="css1">
+        <div class="intro">
+            <br>
+            <p class="intro-0">CSS Introduction</p>
+            <br>
+            <p class="intro-in">What is CSS?</p>
+
+            <p>CSS is a language that defines the design and layout of web pages. In other words, CSS controls how web
+                pages look when loaded in a browser. We call this design and layout the “style” of the page. CSS is the
+                standard language for styling and typically works in conjunction with HTML (the language that defines
+                the content of web pages).
+                <br>
+                <br>
+                CSS stands for Cascading Style Sheets. “Style Sheets” refers to the CSS document itself, and “Cascading”
+                refers to how style rules are applied to page elements. I’ll explain what that means in more detail
+                later on, but let’s first learn what CSS does.
+            </p>
+            <br>
+            <p class="intro-in">What is use CSS</p>
+            <br>
+            <p>
+                CSS is used for defining the styles for web pages. It describes the look and formatting of a document
+                which is written in a markup language. It provides an additional feature to HTML. It is generally used
+                with HTML to change the style of web pages and user interfaces.
+                <br>
+                <br>
+                It is easier to make the web pages presentable using CSS. It is easy to learn and understand and used to
+                control the presentation of an HTML document. CSS helps us to control the text color, font style, the
+                spacing between paragraphs, sizing of columns, layout designs, and many more. It is independent of HTML,
+                and we can use it with any XML-based markup language.
+                <br>
+                <br>
+                It is recommended to use CSS because the HTML attributes are being deprecated. So, for making HTML pages
+                compatible with future browsers, it is good to start using CSS in HTML pages.
+            </p>
+            <br>
+
+            <br>
+            <p class="intro-in"> What is the difference between HTML and CSS? </p>
+            <br>
+            <p>
+                HTML and CSS go hand-in-hand in building the web pages we know and love. However, these are distinct
+                languages, and it’s important to understand their different purposes.
+                <br>
+                <br>
+                HTML (Hypertext Markup Language) determines the contents of a web page, including text, links, images,
+                videos etc. An HTML file lists all of the “things” on a page, but it doesn’t specify how these things
+                look when displayed in a browser.
+                <br>
+                <br>
+                CSS, as we now know, controls the style of these elements. CSS ensures the HTML contents appear to users
+                the way it was intended by designers.
+                <br>
+                <br>
+                You might be wondering: Why separate these two languages? It’s a reasonable question, since HTML and CSS
+                work together. The answer is that separating style and content makes developing websites much, much
+                easier.
+                <br>
+                <br>
+                A brief history lesson: When HTML was first introduced in the 1990s, styling was much less of a
+                consideration — the focus was more on just presenting information on a web page. Once developers had
+                that down, the next step was adding rudimentary visual embellishments like colors and fonts.
+                <br>
+                <br>
+                The first implementation of HTML styling was special HTML tags and attributes that would affect how the
+                text looked. This tacked-on solution worked, but it was far from ideal for designers, especially as
+                websites grew. Those building large online properties had to apply styling to every page element within
+                each HTML file.
+                <br>
+                <br>
+                You can imagine how this would become a tad maddening. Hence, CSS was created to style HTML without
+                having to change the HTML files directly. Since then, there have been several updates to CSS that add
+                new capabilities — the current standard is CSS3.
+            </p>
+            <br>
+            <p class="intro-in"> Benefits of CSS </p>
+            <br>
+            <p>As it turns out, there are multiple benefits to separating content code from style code. These include:
+            </p>
+            <br>
+            <li><span class="span-li">Less coding:</span> Developers can use CSS to apply the same styling to multiple
+                pages and page elements across
+                a website, saving huge amounts of time and reducing the chance of errors. Modifying a site-wide style
+                requires changing just a snippet of code.</li>
+            <br>
+            <li><span class="span-li">More styling options:</span> You can do a lot with CSS, much more than was
+                permitted by the original HTML
+                styling system. With a clear vision, CSS know-how, and some patience, you can customize a website
+                exactly to your preference.</li>
+            <br>
+            <li><span class="span-li">Standardization:</span> Since CSS is the uniform language for styling web pages, a
+                developer or designer can
+                understand the styling for any website by looking at the CSS files.</li>
+            <br>
+            <li><span class="span-li">Better performance: </span>CSS reduces the amount of repetitive styling code. Less
+                code means smaller files,
+                and smaller files mean faster page load times.</li>
+            <br>
+        </div>
+        <hr>
+        <p class="intro-0">CSS Working </p>
+        <p class="intro-in">How to Write CSS </p>
+        <br>
+        <p>We’ve explored why the CSS language does and why it’s important (other than what “cascading” means — we’ll
+            get there, trust me). Now, let’s code some.
+            <br>
+            <br>
+            Those familiar with HTML will notice that CSS syntax looks a little different. Instead of listing page
+            content, CSS lists the style rules that are assigned to HTML elements, an entire HTML document, or even
+            multiple HTML documents. These rules are processed by the web browser loading the HTML file.
+            <br>
+            <br>
+            A rule in CSS looks like this:
+
+        </p>
+        <br>
+        <img src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/04/LV2OI0TM.png?resize=1536%2C500&ssl=1">
+        <br>
+
+        <p>You’ll notice four main components: a selector, declarations, properties, and values. Let’s break down each
+            of these.</p>
+        <br>
+        <p class="intro-in-in">What is a CSS Selector?</p>
+        <br>
+        <p>A CSS rule always begins with a selector. The selector indicates the part of the document where the rule is
+            applied. When processing CSS code, the browser uses the selector to “select” the targeted elements and apply
+            style rules to them. The selector is followed by one or more declarations inside curly braces.
+            <br>
+            <br>
+            <img src="https://pbs.twimg.com/media/Egz9v5QVoAAVHRW?format=png&name=medium" alt="">
+            <br>
+            <br>
+            There are a handful of ways to write a selector. The most basic type of CSS selector is the element
+            selector, used in the example above. The element selector targets HTML elements by their names (e.g., p,
+            span, div, a):
+        </p>
+
+        <br>
+        <p class="intro-in-in">What is a CSS declaration?</p>
+        <br>
+        <p>After the selector comes the declaration block, a pair of curly braces containing one or more CSS
+            declarations. A CSS declaration tells the browser how to style the selected element — it consists of a
+            property and a value.
+            <br>
+            <br>
+            <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png" alt="">
+            <br>
+            <br>
+            Each declaration ends with a semicolon. Though not required, it’s common to place each declaration on a new
+            line. This practice makes CSS declaration blocks easier for humans to read.
+        </p>
+
+        <br>
+        <p class="intro-in-in">What is a CSS property?</p>
+        <br>
+        <p>As the first part of a CSS declaration, a CSS property tells the browser what style feature of the element
+            should be changed. There are many CSS properties that affect different things. For example, a property can
+            target an element’s color, size, font, shape, or location on the page. A property is always paired with at
+            least one value. A property and its value(s) are separated by a colon.
+            <br>
+            <br>
+            <img src="https://www.tutorialspoint.com/css/images/syntax.png" alt="">
+            <br>
+            <br>
+            Before we talk about values, one important note: For a declaration to take effect, the browser must
+            recognize the property of the declaration. Unfortunately, just because a CSS property exists doesn’t mean it
+            works in every browser. When new properties are introduced, web browsers need to implement them, and some
+            browsers are faster to adopt new CSS features than others.
+        </p>
+        <br>
+        <p class="intro-in-in">What is a CSS value?</p>
+        <br>
+        <p> Every CSS property has its own set of values. The value specifies the styling of an element’s property. Here
+            are
+            some common properties and their values:</p>
+        <br>
+        <li>Color-related properties can take simple one-word values like blue and red, as well as hex codes —<span>
+                #33E0FF</span> and <span>#FF5733</span> — and RGB values — <span>rgb(51, 224, 255) </span>and
+            <span>rgb(255, 87, 51)</span>.
+        </li><br>
+        <li>The width property takes can take a length value —<span> px </span>(pixels), for instance — or a percentage,
+            which sizes the element relative to the width of the parent container. For instance, a
+            <span>"div"</span>inside the<span>"body"</span> tag set to 50% width will span half the width of the
+            viewport.
+        </li><br>
+        <li>The <span>font-family</span> property accepts the written names of web-safe fonts like<span> Arial, Times
+                New Roman,</span> or<span> Courier.</span></li><br>
+        <br>
+        <p class="intro-in-in">CSS Comments</p>
+        <br>
+        ike with HTML, you can write comments in CSS. Comments are ignored by the browser and are useful in providing
+        context and notes for your code.
+        <br><br>
+        To comment in CSS, write<span> /*</span>, then your comment text, then end with<span> */.</span>
+        <br>
+        <br>
+        <p class="intro-in">How to Add CSS to HTML </p>
+        <br>
+        <p>Of course, CSS doesn’t do us much good if it’s not linked to an HTML file. In this section, I’ll cover three
+            ways to add CSS to HTML: external, internal, and inline.</p>
+        <br>
+        <p class="intro-in-in">External CSS</p>
+        <br>
+        <p>External CSS exists in its own file. This file is linked to an HTML document with a
+            <span>"link"</span> tag. External CSS is the most common method for adding CSS to HTML, since one external
+            stylesheet can
+            dictate the style of multiple HTML documents. This enables developers to make site-wide changes with just
+            one CSS file.
+            <br>
+            <br>
+            To create a CSS file, write your CSS code in any text editor or code editor and save the file with the .css
+            extension. To link your CSS file to an HTML file, place your HTML file and CSS files in the same folder,
+            then paste the following code inside the
+            <span>"head"</span> section of the HTML file:
+
+        </p>
+        <br>
+        <img src="https://miro.medium.com/max/1100/1*HZRsQBatRPss8JMqpsXWJw.png">
+        <br>
+        <p class="intro-in-in">Internal CSS</p>
+        <br>
+        <p>Internal CSS is CSS code embedded in an HTML document. It is written inside the <span>"style"</span> element,
+            which is placed in the<span> "head"</span> section:</p>
+        <br>
+        <img src="https://miro.medium.com/max/828/1*BUQ1fJAxb0-7VXu4sV3fbg.png" alt="">
+        <br>
+        <p>Internal CSS is best used for small web projects and individual web pages with their own styling. In these
+            cases, it might be easier to keep all your code in the same file, rather than jumping between two — it just
+            comes down to your preference.</p>
+        <br>
+        <p class="intro-in-in">Inline CSS</p>
+        <br>
+        <p>Inline CSS is placed inside an HTML tag to change the style of a single specific element. Inline syntax is
+            slightly different than what we’ve seen — the declaration is written as the value of the <span>style</span>
+            attribute:</p>
+        <br>
+        <img src="https://miro.medium.com/max/1100/1*W4XE0mJpm_c1Uiai4nvyxA.png" alt="">
+        <br>
+        <p>But hold on...doesn’t this violate the practice of separating style from content? Yes, which is why its use
+            is generally discouraged. Inline CSS is both inefficient to program and harder to understand than external
+            and even internal CSS. Still, it’s good to know in case you ever see it.</p>
+        <br>
+        <br>
+        <p class="intro-in">CSS Cascade, Specificity, and Inheritance </p>
+        <br>
+        <p>Up to this point, the concepts we’ve explored so far are relatively straightforward — CSS is a list of style
+            rules applied to HTML. Each rule corresponds to one or more page elements. CSS can be applied externally,
+            internally, or inline. Piece of cake.
+<br>
+<br>
+            However, in your early CSS tinkering, you’ll likely encounter a situation in which your page elements look
+            different than you expect. You’ve written all of your rules correctly and checked for browser compatibility,
+            and your code still doesn’t seem to work. Why is that?
+<br><br>
+            The reason is, in addition to the basic principles we’ve covered, CSS has some built-in systems that control
+            how your code affects page elements. To prevent confusion for your future self, there are three more
+            important CSS terms you should know: cascade, specificity, and inheritance. Let’s unpack each of these.</p>
+            <br>
+            <br>
+        <hr>
+
+        <p class="harry"> More learn CSS with <a
+                href="https://www.codewithharry.com/tutorial/html-home/">CodewithHarry</a> -Click hear</p>
+
+    </div>
+
+
+    </div>
+
+
+<div class="footer">
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a href="#" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-unity"
+                    viewBox="0 0 16 16" color="#246DA9">
+                    <path
+                        d="M15 11.2V3.733L8.61 0v2.867l2.503 1.466c.099.067.099.2 0 .234L8.148 6.3c-.099.067-.197.033-.263 0L4.92 4.567c-.099-.034-.099-.2 0-.234l2.504-1.466V0L1 3.733V11.2v-.033.033l2.438-1.433V6.833c0-.1.131-.166.197-.133L6.6 8.433c.099.067.132.134.132.234v3.466c0 .1-.132.167-.198.134L4.031 10.8l-2.438 1.433L7.983 16l6.391-3.733-2.438-1.434L9.434 12.3c-.099.067-.198 0-.198-.133V8.7c0-.1.066-.2.132-.233l2.965-1.734c.099-.066.197 0 .197.134V9.8L15 11.2Z" />
+                </svg>
+
+                <span class="ml-3 text-xl">CodeWithCoder</span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
+                2022 CodeWithCoder —
+                @DevangPatel
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a href="#" class="mr-5 hover:text-blue-900" class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+                <a href="#" class="mr-5 hover:text-blue-900" class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/devang_.03/" class="mr-5 hover:text-blue-900" class="ml-3 text-gray-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+                <a href="#" class="mr-5 hover:text-blue-900" class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none"
+                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                        </path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>

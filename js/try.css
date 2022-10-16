@@ -1,0 +1,27 @@
+p {
+
+    animation-duration: 20s;
+    
+    animation-name: slidein;
+    background-image: linear-gradient(red, yellow);
+    
+    }
+    
+    @keyframes slidein {
+    
+    from { 
+    
+    margin-left: 0%;
+    
+    width: 100%;
+    
+    }
+    to {
+    
+    margin-left: 0%;
+    
+    width: 100%;
+    
+    }
+    
+    }
